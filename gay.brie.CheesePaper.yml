@@ -16,9 +16,6 @@ finish-args:
   - --socket=wayland
   # GPU acceleration (for egui (I think?))
   - --device=dri
-  # Needs to talk to the network: (only for checking for updates,
-  # can (should?) disable for flathub)
-  - --share=network
   # cheese-paper uses config and data
   - --filesystem=xdg-config/cheese-paper
   - --filesystem=xdg-data/cheese-paper
